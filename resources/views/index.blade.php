@@ -85,7 +85,7 @@
                             <th scope="col">Name</th>
                             <th scope="col">Email</th>
                             <th scope="col">Age</th>
-                            <th scope="col">Actions</th>
+{{--                            <th scope="col">Actions</th>--}}
                         </tr>
                     </thead>
 
@@ -96,7 +96,7 @@
                             <td>{{ $student->name }}</td>
                             <td>{{ $student->email }}</td>
                             <td>{{ $student->age }}</td>
-                            <td>@@@</td>
+{{--                            <td>@@@</td>--}}
                         </tr>
                     @endforeach
                     </tbody>
